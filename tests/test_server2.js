@@ -1,9 +1,9 @@
 
 // Modules
-	var hermod = require('./main');
+	var hermod = require('../lib/hermod');
 
 // Create server
-	var server = hermod.createServer( 8003 );
+	var server = hermod.createServer( 8001 );
 
 // Listen petitions
 	server.on( 'hello', function( name, callback ){

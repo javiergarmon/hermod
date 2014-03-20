@@ -1,0 +1,20 @@
+{
+    "name": "hermod",
+    "description": "Blazing fast communication between Node.js processes",
+    "main": "./lib/hermod",
+    "author": "Javier Garmon",
+    "version": "0.0.1",
+    "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/javiergarmon/hermod.git"
+    },
+    "bugs" : {
+        "url" : "https://github.com/javiergarmon/hermod/issues"
+    },
+    "licenses" : [
+        {
+            "type" : "MIT",
+            "url" : "https://github.com/javiergarmon/hermod/raw/master/LICENSE"
+        }
+    ]
+}

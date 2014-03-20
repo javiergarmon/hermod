@@ -1,6 +1,6 @@
 
 // Modules
-	var hermod = require('./main');
+	var hermod = require('../lib/hermod');
 
 // Create server
 	var server = hermod.createServer( 8000 );

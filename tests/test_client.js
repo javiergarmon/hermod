@@ -1,6 +1,6 @@
 
 // Modules
-	var hermod = require('./main');
+	var hermod = require('../lib/hermod');
 
 // Create client
 	var client = hermod.createClient( 8000, 8001, 8002, 8003 );
