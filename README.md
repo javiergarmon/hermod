@@ -26,7 +26,7 @@ Blazing fast communication between Node.js processes
 // Create client
   var client = hermod.createClient( 8000 );
 
-// Listen petitions
+// Make a petition
   client.request( 'hello', 'John', function( error, response ){
     console.log( 'Server sais', response );
   });
