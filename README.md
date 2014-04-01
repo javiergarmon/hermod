@@ -2,6 +2,9 @@
 
 Blazing fast communication between Node.js processes
 
+## How to install hermod
+`npm install hermod`
+
 ## Example
 ### Server with one client
 #### Server
