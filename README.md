@@ -31,6 +31,6 @@ Blazing fast communication between Node.js processes
 
 // Make a petition
   client.request( 'hello', 'John', function( error, response ){
-    console.log( 'Server sais', response );
+    console.log( 'Server says', response );
   });
 ```
