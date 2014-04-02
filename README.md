@@ -1,9 +1,13 @@
+
 # hermod
 
 Blazing fast communication between Node.js processes
 
 ## How to install hermod
-`npm install hermod`
+You can install hermod using Node Package Manager (npm):
+```
+npm install hermod
+```
 
 ## Example
 ### Server with one client
@@ -34,3 +38,15 @@ Blazing fast communication between Node.js processes
     console.log( 'Server says', response );
   });
 ```
+
+## Benchmarks
+You can see benchmark results in https://github.com/javiergarmon/hermod-benchmark
+
+## To Do List
+* Round robin examples
+* Limit connections for specific IPs
+* send() client method
+* shout() client method
+* close() client method
+* Authentication support
+* Middleware support
