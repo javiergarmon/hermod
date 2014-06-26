@@ -118,7 +118,7 @@ npm install hermod
   client.send( 'hello', 'John' );
 ```
 
-### Block non-desired connections for unknown IPs
+### Block non-desired connections from unknown IPs
 #### Server
 ```js
 // Modules

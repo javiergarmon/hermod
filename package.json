@@ -5,7 +5,7 @@
     "description" : "Blazing fast communication between Node.js processes",
     "main"        : "./lib/hermod",
     "author"      : "Javier Garmon",
-    "version"     : "0.0.4",
+    "version"     : "0.0.5",
 
     "repository" : {
 
